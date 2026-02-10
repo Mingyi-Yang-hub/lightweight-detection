@@ -8,4 +8,7 @@ This model was trained on a private dataset, which consists of ultrasound images
 
 # Code
 Code is developed based on the publicly available library MMDetection released by OpenMMLab. It leverages its established frameworks and pipelines for training, testing, and data loading, while implementing the proposed model on this foundation.
+
+The configuration file for the proposed model is located in configs/Bfreefluid/5fold_2branch_GLAM_yolox_tiny_8xb8-300e_coco.py. The model is build based on the YOLOx framework, and we have structurally optimized the backbone and neck module.
+
 The code of proposed model will be released soon.
