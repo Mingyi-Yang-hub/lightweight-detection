@@ -7,7 +7,7 @@ The network is built upon the general and lightweight object detection architect
 This model was trained on a private dataset, which consists of ultrasound images of rabbits with active liver tissue hemorrhage.
 
 # Code
-Code is developed based on the publicly available library MMDetection released by OpenMMLab. It leverages its established frameworks and pipelines for training, testing, and data loading, while implementing the proposed model on this foundation.
+Code is developed based on the publicly available library [MMDetection](https://github.com/open-mmlab/mmdetection) released by OpenMMLab. It leverages its established frameworks and pipelines for training, testing, and data loading, while implementing the proposed model on this foundation.
 
 The configuration file for the proposed model is located in configs/Bfreefluid/5fold_2branch_GLAM_yolox_tiny_8xb8-300e_coco.py. The model is build based on the YOLOx framework, and we have structurally optimized the backbone and neck module.
 
